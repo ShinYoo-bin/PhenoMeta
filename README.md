@@ -54,7 +54,7 @@ the selected model parameters. Additional memory headroom is recommended.
 Clone this repository and create the Conda environment:
 
 ```bash
-git clone <PHENOMETA_REPOSITORY_URL>
+git clone https://github.com/ShinYoo-bin/PhenoMeta.git
 cd PhenoMeta
 conda env create -f environment.yml
 conda activate phenometa
