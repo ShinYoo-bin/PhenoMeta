@@ -1,15 +1,12 @@
 # PhenoMeta: Phenotype-guided Metacell Learning for Single-cell Phenotype Prediction
 
-**PhenoMeta** is an annotation-free framework for patient-level phenotype
-prediction from single-cell RNA sequencing data. It encodes cells with a
-single-cell foundation model, learns patient-specific metacells through
-phenotype-guided prototype assignment, and aggregates them with size-aware
-attention.
+**PhenoMeta** is a phenotype-aware metacell learning framework that compresses scRNA-seq data to enable computationally efficient patient-level phenotype prediction while preserving predictive performance and biological interpretability.
 
-```text
-scRNA-seq -> scGPT -> graph autoencoder -> phenotype-guided metacells
-          -> size-aware attention -> patient-level prediction
-```
+## Overview
+
+<p align="center">
+  <img src="pipeline.svg" width="100%" alt="PhenoMeta Overview">
+</p>
 
 ## 1. Preparation
 
